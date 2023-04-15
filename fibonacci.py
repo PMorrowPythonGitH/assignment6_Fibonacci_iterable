@@ -23,20 +23,23 @@ class FibonacciRange:
 
     def __next__(self):
 
-        if type(self.fibvalue) == int:
+        #if type(self.fibvalue) == int:
 
-            n3 = self.n1
+        if isinstance(self.fibvalue, str):
+            raise ValueError
+
+        n3 = self.n1
 
 
-            if self.count > self.fibvalue:
-                raise StopIteration
+        if self.count > self.fibvalue:
+            raise StopIteration
 
-            self.n1, self.n2 = self.n2, self.n1 + self.n2
+        self.n1, self.n2 = self.n2, self.n1 + self.n2
 
-            self.count += self.step
+        self.count += self.step
 
-            return n3
+        return n3
         
-        else:
+        #else:
 
-            raise ValueError("ValueError")
+            #raise ValueError("ValueError")
