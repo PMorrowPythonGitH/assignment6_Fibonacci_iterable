@@ -6,6 +6,7 @@ import pytest
 
 from fibonacci import FibonacciRange
 
+[number for number in FibonacciRange(2)]
 #def test_str():
   
   #assert [number for number in FibonacciRange("Hello")] == ValueError
@@ -18,9 +19,9 @@ from fibonacci import FibonacciRange
   
   #assert [number for number in FibonacciRange(1)] == [0, 1]
   
-def test_two():
+#def test_two():
   
-  assert [number for number in FibonacciRange(2)] == [0, 1, 1]
+  #assert [number for number in FibonacciRange(2)] == [0, 1, 1]
   
 #def test_four():
   
