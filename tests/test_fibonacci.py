@@ -9,7 +9,8 @@ from fibonacci import FibonacciRange
 
 def test_str():
   
-  assert [number for number in FibonacciRange("Hello")] == ValueError
+  with pytest.raises(ValueError):
+        pelindrome_validator(3542)
 
 def test_zero():
   
