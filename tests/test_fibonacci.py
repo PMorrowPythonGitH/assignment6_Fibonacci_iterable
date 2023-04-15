@@ -7,9 +7,9 @@ import pytest
 from fibonacci import FibonacciRange
 
 
-#def test_str():
+def test_str():
   
-  #assert [number for number in FibonacciRange("Hello")] == ValueError
+  assert [number for number in FibonacciRange("Hello")] == ValueError
 
 #def test_zero():
   
