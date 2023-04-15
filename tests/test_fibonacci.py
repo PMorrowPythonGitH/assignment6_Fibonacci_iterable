@@ -9,7 +9,7 @@ from fibonacci import FibonacciRange
 
 def test_str():
   
-  assert [number for number in FibonacciRange('hello')] == ValueError
+  assert [number for number in FibonacciRange('hello')] == 'ValueError'
 
 def test_zero():
   
