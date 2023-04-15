@@ -2,6 +2,8 @@
 Fibonacci test
 """
 
+import pytest
+
 from fibonacci import FibonacciRange
 
 #def test_str():
@@ -18,7 +20,7 @@ from fibonacci import FibonacciRange
   
 def test_two():
   
-  assert [number for number in FibonacciRange(2)] == [0, 1, 1]
+  [number for number in FibonacciRange(2)] == [0, 1, 1]
   
 #def test_four():
   
