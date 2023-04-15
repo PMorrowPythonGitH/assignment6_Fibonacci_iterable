@@ -2,7 +2,7 @@
 Fibonacci test
 """
 
-import pytest
+#import pytest
 
 from fibonacci import FibonacciRange
 
