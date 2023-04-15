@@ -9,8 +9,7 @@ from fibonacci import FibonacciRange
 
 def test_str():
   
-  with pytest.raises(ValueError):
-        FibonacciRange(3542)
+  assert [number for number in FibonacciRange('hello')] == ValueError
 
 def test_zero():
   
