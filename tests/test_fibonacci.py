@@ -20,7 +20,7 @@ from fibonacci import FibonacciRange
   
 def test_two():
   
-  [number for number in FibonacciRange(2)] == [0, 1, 1]
+  assert [number for number in FibonacciRange(2)] == [0, 1, 1]
   
 #def test_four():
   
