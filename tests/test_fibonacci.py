@@ -10,7 +10,7 @@ from fibonacci import FibonacciRange
 def test_str():
   
   with pytest.raises(ValueError):
-        pelindrome_validator(3542)
+        FibonacciRange(3542)
 
 def test_zero():
   
